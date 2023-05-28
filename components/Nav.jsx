@@ -11,7 +11,7 @@ function Nav() {
     <nav className='flex-between w-full pt-3 mb-16'>
       <Link href='/' className='flex gap-2 flex-center'> 
         <Image src='/assets/images/logo.svg' width={40} height={40} alt='logo' />
-        <p className="logo_text">Promt-AI</p>
+        <p className="logo_text second-font">Promt-AI</p>
       </Link>
     </nav>
   )

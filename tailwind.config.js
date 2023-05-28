@@ -7,10 +7,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        roboto: ['Roboto Mono', 'monospace'],
-        inter: ['Inter', 'sans-serif'],
-      },
       colors: {
         'primary-orange': '#FF5722',
       }

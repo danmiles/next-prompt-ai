@@ -5,9 +5,17 @@
 /* 
   Note: The styles for this gradient grid background is heavily inspired by the creator of this amazing site (https://dub.sh) – all credits go to them! 
 */
-body {
+/* body {
   font-family: "Inter", sans-serif;
   overflow-x: hidden;
+} */
+
+html {
+  font-family: var(--main-font);
+}
+
+.second-font {
+  font-family: var(--second-font);
 }
 
 .main {
@@ -80,11 +88,11 @@ body {
 }
 
 .black_btn {
-  @apply rounded-full border border-black bg-black py-1.5 px-5 text-white transition-all hover:bg-white hover:text-black text-center text-sm font-inter flex items-center justify-center;
+  @apply rounded-full border border-black bg-black py-1.5 px-5 text-white transition-all hover:bg-white hover:text-black text-center text-sm  flex items-center justify-center;
 }
 
 .outline_btn {
-  @apply rounded-full border border-black bg-transparent py-1.5 px-5 text-black transition-all hover:bg-black hover:text-white text-center text-sm font-inter flex items-center justify-center;
+  @apply rounded-full border border-black bg-transparent py-1.5 px-5 text-black transition-all hover:bg-black hover:text-white text-center text-sm  flex items-center justify-center;
 }
 
 .head_text {
@@ -108,7 +116,7 @@ body {
 }
 
 .search_input {
-  @apply block w-full rounded-md border border-gray-200 bg-white py-2.5 font-roboto pl-5 pr-12 text-sm shadow-lg font-medium focus:border-black focus:outline-none focus:ring-0;
+  @apply block w-full rounded-md border border-gray-200 bg-white py-2.5  pl-5 pr-12 text-sm shadow-lg font-medium focus:border-black focus:outline-none focus:ring-0;
 }
 
 .copy_btn {
@@ -139,7 +147,7 @@ body {
 
 /* Nav Component */
 .logo_text {
-  @apply max-sm:hidden font-roboto font-black text-lg text-black tracking-wide;
+  @apply max-sm:hidden uppercase  font-black text-xl text-black tracking-wide;
 }
 
 .dropdown {
@@ -147,7 +155,7 @@ body {
 }
 
 .dropdown_link {
-  @apply text-sm font-inter text-gray-700 hover:text-gray-500 font-medium;
+  @apply text-sm  text-gray-700 hover:text-gray-500 font-medium;
 }
 
 /* PromptCard Component */

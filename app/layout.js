@@ -1,4 +1,4 @@
-import { Inter, Roboto_Mono } from 'next/font/google';
+import { Inter, Roboto_Flex } from 'next/font/google';
 import '@styles/global.css';
 import Nav from '@components/Nav';
 
@@ -9,9 +9,9 @@ const inter = Inter({
   display: 'swap',
 });
 
-const roboto_mono = Roboto_Mono({
+const roboto_flex = Roboto_Flex({
   subsets: ['latin'],
-  variable: '--secondary-font',
+  variable: '--second-font',
   display: 'swap',
 });
 
@@ -23,7 +23,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${inter.variable} ${roboto_mono.variable}`}>
+    <html lang="en" className={`${inter.variable} ${roboto_flex.variable}`}>
       <body>
         <div className="main">
           <div className="gradient"></div>
