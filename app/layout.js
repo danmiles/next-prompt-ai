@@ -1,11 +1,18 @@
-import { Inter } from 'next/font/google';
+import { Inter, Roboto_Mono } from 'next/font/google';
 import '@styles/global.css';
+import Nav from '@components/Nav';
 
 // If loading a variable font, you don't need to specify the font weight
 const inter = Inter({
   subsets: ['latin'],
+  variable: '--main-font',
   display: 'swap',
-  variables: 'main-font',
+});
+
+const roboto_mono = Roboto_Mono({
+  subsets: ['latin'],
+  variable: '--secondary-font',
+  display: 'swap',
 });
 
 export const metadata = {
@@ -16,12 +23,15 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={inter.className}>
+    <html lang="en" className={`${inter.variable} ${roboto_mono.variable}`}>
       <body>
         <div className="main">
           <div className="gradient"></div>
         </div>
-        <main className="app">{children}</main>
+        <main className="app">
+          <Nav />
+          {children}
+        </main>
       </body>
     </html>
   );
