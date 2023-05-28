@@ -147,7 +147,7 @@ html {
 
 /* Nav Component */
 .logo_text {
-  @apply max-sm:hidden uppercase  font-black text-xl text-black tracking-wide;
+  @apply max-sm:hidden  font-black text-xl text-black tracking-wide;
 }
 
 .dropdown {
