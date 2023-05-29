@@ -34,3 +34,4 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 project-info.md
+app/api/auth/\[...nextauth\]/client_secret.json

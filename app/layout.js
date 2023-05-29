@@ -1,6 +1,7 @@
 import { Inter, Roboto_Flex } from 'next/font/google';
 import '@styles/global.css';
 import Nav from '@components/Nav';
+import Provider from '@components/Provider';
 
 // If loading a variable font, you don't need to specify the font weight
 const inter = Inter({
@@ -25,13 +26,15 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${inter.variable} ${roboto_flex.variable}`}>
       <body>
-        <div className="main">
-          <div className="gradient"></div>
-        </div>
-        <main className="app">
-          <Nav />
-          {children}
-        </main>
+        <Provider>
+          <div className="main">
+            <div className="gradient"></div>
+          </div>
+          <main className="app">
+            <Nav />
+            {children}
+          </main>
+        </Provider>
       </body>
     </html>
   );
