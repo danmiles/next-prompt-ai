@@ -24,8 +24,8 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# local env files
-.env*.local
+#  env files
+.env
 
 # vercel
 .vercel
@@ -35,3 +35,4 @@ yarn-error.log*
 next-env.d.ts
 project-info.md
 app/api/auth/\[...nextauth\]/client_secret.json
+

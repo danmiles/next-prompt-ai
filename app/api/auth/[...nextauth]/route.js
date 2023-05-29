@@ -5,8 +5,8 @@ import { signIn } from 'next-auth/react';
 const heandler = NextAuth({
   providers: [
     GoogleProvider({
-      clientId: '',
-      clientSecret: '',
+      clientId: process.env.GOOGLE_ID,
+      clientSecret: process.env.GOOGLE_SECRET,
     }),
   ],
   async session({ session }) {
