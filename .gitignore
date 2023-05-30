@@ -27,6 +27,8 @@ yarn-error.log*
 #  env files
 .env
 
+
+
 # vercel
 .vercel
 
@@ -36,6 +38,4 @@ next-env.d.ts
 project-info.md
 app/api/auth/\[...nextauth\]/client_secret.json
 
-.env
-.env
-.env
+
