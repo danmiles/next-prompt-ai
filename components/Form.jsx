@@ -1,9 +1,18 @@
-import React from 'react'
+import React from 'react';
+import Link from 'next/link';
 
-function Form() {
+const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
   return (
-    <div>Form</div>
-  )
-}
+    <section className="w-full">
+      <div className="">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+        aliquam alias, perspiciatis ducimus maxime esse, et tempora similique
+        earum quam reiciendis pariatur voluptatem ut, aspernatur ad doloremque
+        minima quae beatae reprehenderit corporis? Sit tempora magni dolor
+        eligendi et autem maiores?
+      </div>
+    </section>
+  );
+};
 
-export default Form
+export default Form;
