@@ -8,7 +8,7 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
         <span className="blue_gradient">{type} Post</span>
       </h1>
 
-      <p className="desc">
+      <p className="desc mb-10">
         {type} and share prompts with other users. You can also use this site to
         create prompts for gpt chat. Good prompts are the backbone of good
         outputs. This is true for ChatGPT and even more so for AI image
@@ -16,6 +16,12 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
         super basic prompts, AI art generators tend to require more attention to
         detail—and more attempts—before you get what you're looking for.
       </p>
+
+      <form
+        onSubmit={handleSubmit}
+        className="w-full max-w-2xl flex flex-col gap-7 glassmorphism"
+
+      ></form>
     </section>
   );
 };
