@@ -2,6 +2,15 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+1) First you need to log in using your Google account (using Next.js Auth)
+2) Then you can save your own short prompts for example for Chat gbt
+3) The application also integrates the ability to delete and edit existing prompts.
+4) You can search for yours or other users' prompts using the search form
+
+I am grateful to the youtube channel JavaScript Mastery
+for learning the new functionality of Next.js 13.
+
+LOCAL HOST
 First, run the development server:
 
 ```bash
