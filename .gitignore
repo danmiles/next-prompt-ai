@@ -39,3 +39,4 @@ project-info.md
 app/api/auth/\[...nextauth\]/client_secret.json
 
 
+.env.local
