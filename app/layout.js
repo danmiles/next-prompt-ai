@@ -19,7 +19,7 @@ const roboto_flex = Roboto_Flex({
 export const metadata = {
   title: 'Prompt AI',
   description:
-    'On this site you can create hints on different topics for gpt chat',
+    'On this site you can create prompts on different topics for gpt chat',
 };
 
 export default function RootLayout({ children }) {
