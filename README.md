@@ -1,7 +1,8 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
-
+URL:
+https://next-prompt-ai.vercel.app/
 1) First you need to log in using your Google account (using Next.js Auth)
 2) Then you can save your own short prompts for example for Chat gbt
 3) The application also integrates the ability to delete and edit existing prompts.
