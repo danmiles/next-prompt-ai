@@ -8,6 +8,18 @@ https://next-prompt-ai.vercel.app/
 3) The application also integrates the ability to delete and edit existing prompts.
 4) You can search for yours or other users' prompts using the search form
 
+## Introduction
+This is a project that I created to learn Next.js 13. I used the following technologies:
+- Next.js 13
+- Next.js Auth
+- Next.js API Routes
+- Next.js Image
+- Next.js Font Optimization
+- Next.js SEO
+- Next.js i18n
+- Tailwind CSS
+- Database MongoDB
+
 I am grateful to the youtube channel JavaScript Mastery
 for learning the new functionality of Next.js 13.
 
