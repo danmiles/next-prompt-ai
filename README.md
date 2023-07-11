@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![Alt Next 13 Prompt AI](https://portfolio-denis-web.vercel.app/assets/img/portfolio/small/promt-ai__next-13-mobile.webp)
 
 ## Getting Started
 URL:
@@ -16,7 +16,6 @@ This is a project that I created to learn Next.js 13. I used the following techn
 - Next.js Image
 - Next.js Font Optimization
 - Next.js SEO
-- Next.js i18n
 - Tailwind CSS
 - Database MongoDB
 
